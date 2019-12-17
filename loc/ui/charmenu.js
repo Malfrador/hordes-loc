@@ -15,7 +15,8 @@ export default {
       pt: 'Selecione um Personagem',
       ro: 'Selectează Caracterul',
       zh: '選人物',
-      hu: 'Válassz karaktert'
+      hu: 'Válassz karaktert',
+      pl: 'Wybierz Postać'
     },
 
     create: {
@@ -31,7 +32,8 @@ export default {
       pt: 'Clique para criar um personagem',
       ro: 'Click pentru a crea un caracter',
       zh: '點擊以創建角色',
-      hu: 'Kattints karakter létrehozásához'
+      hu: 'Kattints karakter létrehozásához',
+      pl: 'Klijnij aby stworzyć postać'
     },
 
     enterWorld: {
@@ -47,7 +49,8 @@ export default {
       pt: 'Entrar no Mundo',
       ro: 'Intră în Lume',
       zh: '進入世界',
-      hu: 'Belépés a világba'
+      hu: 'Belépés a világba',
+      pl: 'Wejdź do świata'
     },
 
     emptySlot: {
@@ -63,7 +66,8 @@ export default {
       pt: 'Vazio',
       ro: 'Gol',
       zh: '空的',
-      hu: 'Üres'
+      hu: 'Üres',
+      pl: 'Pusty'
     },
 
     error: {
@@ -79,7 +83,8 @@ export default {
       pt: 'Erro de Rede',
       ro: 'Eroare de Rețea',
       zh: '網絡錯誤',
-      hu: 'Hálózati Hiba'
+      hu: 'Hálózati Hiba',
+      pl: 'Problem z siecią'
     }
   },
 
@@ -98,7 +103,8 @@ export default {
       pt: 'Criação de Personagens',
       ro: 'Creare de Personaje',
       zh: '角色創造',
-      hu: 'Karakter Létrehozás'
+      hu: 'Karakter Létrehozás',
+      pl: 'Tworzenie Postaci'
     },
 
     pressIcon: {
@@ -114,7 +120,8 @@ export default {
       pt: 'Pressione um ícone para uma breve descrição.',
       ro: 'Apăsați o pictogramă pentru o scurtă descriere.',
       zh: '按圖標可獲得簡要說明。',
-      hu: 'Kattints a címerre egy rövid leírásért.'
+      hu: 'Kattints a címerre egy rövid leírásért.',
+      pl: 'Kliknij ikonę aby wyświetlić krótki opis.'
     },
 
     selectClass: {
@@ -130,7 +137,8 @@ export default {
       pt: 'Selecione uma Classe',
       ro: 'Alegeți o Clasă',
       zh: '選擇角色職業',
-      hu: 'Válassz egy kasztot'
+      hu: 'Válassz egy kasztot',
+      pl: 'Wybierz klasę'
     },
 
     selectFaction: {
@@ -146,7 +154,8 @@ export default {
       pt: 'Selecione uma Facção',
       ro: 'Alegeți o Facțiune',
       zh: '選擇派系',
-      hu: 'Válassz egy szövetséget'
+      hu: 'Válassz egy szövetséget',
+      pl: 'Wybierz frakcję'
     },
 
     enterName: {
@@ -162,7 +171,8 @@ export default {
       pt: 'Introduza um nome',
       ro: 'Introduceți un nume',
       zh: '選擇名稱',
-      hu: 'Add meg a hősöd nevét'
+      hu: 'Add meg a hősöd nevét',
+      pl: 'Wprowadź imię'
     },
 
     nameReq: {
@@ -171,13 +181,14 @@ export default {
       fr: 'Votre nom ne peut contenir que des caractères de A à Z, des chiffres entre 0 et 9, sans aucun espace, et entre 3 et 16 caractères.',
       hi: 'आपके नाम में केवल a-Z अक्षर और 0-9 अंक हो सकते है| 3 और 16 वर्णों के बीच।',
       es: 'Su nombre sólo puede contener los caracteres de la a-Z, y los números del 0 al 9, sin espacios. Entre 3 y 16 caracteres.',
-      de: 'Dein Name darf nur die Buchstaben a-Z und die Zahlen 0-9 ohne Leerzeichen enthalten. 3 bis 16 Zeichen.',
+      de: 'Dein Name darf nur die Buchstaben a-Z und die Zahlen 0-9 ohne Leerzeichen enthalten und muss 3 bis 16 Zeichen lang sein.',
       ko: '이름에는 공백없이 a-Z와 0-9의 문자 만 사용할 수 있습니다. 최대 16 자.',
       tr: 'İsminiz boşluk bırakmadan, en az 3 ve en fazla 16 karakter barındıracak şekilde, yalnızca a-Z karakterlerini ve 0-9 arasındaki sayıları içerebilir.',
       nl: 'Uw naam kan alleen de letters a-Z bevatten, en cijfers 0-9, zonder spaties. Tussen 3 en 16 tekens.',
       pt: 'O seu nome só pode conter caracteres de a-Z, e números 0-9, sem espaços. Entre 3 e 16 caracteres.',
       ro: 'Numele tău poate conține doar caractere a-Z, și numere 0-9, fără spații. Între 3 și 16 caractere.',
-      hu: 'A nevedben betűk A-tól Z-ig, és számok 0-tól 9-ig, lehetnek csak, szünetek nélkül. 3 és 16 karakter között.'
+      hu: 'A nevedben betűk A-tól Z-ig, és számok 0-tól 9-ig, lehetnek csak, szünetek nélkül. 3 és 16 karakter között.',
+      pl: 'Imię musi zawierać tylko litery A-Z oraz numery 0-9, bez spacji. Od 3 do 16 znaków.'
     }
   },
 
@@ -197,7 +208,8 @@ export default {
       pt: 'Eliminar',
       ro: 'Șterge',
       zh: '刪除',
-      hu: 'Törlés'
+      hu: 'Törlés',
+      pl: 'Usuń'
     },
 
     info: {
@@ -213,7 +225,8 @@ export default {
       pt: 'Para apagar, digite o nome do personagem. Seu personagem não poderá ser restaurado.',
       ro: 'Pentru a șterge, tastați numele caracterului. Personajul tău nu va putea fi restaurat',
       zh: '要刪除，請鍵入角色的名稱。 你的角色無法恢復。',
-      hu: 'Add meg a karaktered nevét a törléshez. Ezek után már nem lehet visszaállítani.'
+      hu: 'Add meg a karaktered nevét a törléshez. Ezek után már nem lehet visszaállítani.',
+      pl: 'Aby usunąć, wpisz imię postaci. Przywrócenie postaci nie będzie możliwe.'
     },
 
     placeholder: {
@@ -229,7 +242,8 @@ export default {
       pt: 'Tem a certeza?',
       ro: 'Ești sigur?',
       zh: '你確定嗎？',
-      hu: 'Biztos vagy benne?'
+      hu: 'Biztos vagy benne?',
+      pl: 'Na pewno?'
     }
   }
 }
