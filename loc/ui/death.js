@@ -13,14 +13,16 @@ export default {
     ro: 'Tu ai murit.',
     zh: '你死了。',
     hu: 'Meghaltál',
-    pl: 'Zginąłeś'
+    pl: 'Zginąłeś',
+    bn: 'আপনি মারা গেছেন',
+    vi: 'Bạn đã chết'
   },
 
   deathmsg: {
     en: 'Press the button to be resurrected at the nearest conjurer.',
     ru: 'Нажмите кнопку, чтобы воскреснуть у ближайшего Заклинателя.',
     hi: 'निकटतम संयोजक पर पुनर्जीवित होने के लिए बटन दबाएं।',
-    es: 'Presiona el botón para ser resucitado en el conjurador más cercano.',
+    es: 'Presiona este botón para ser resucitado en el invocador más cercano.',
     de: 'Drücke den Knopf, um beim nächsten Beschwörer wiederbelebt zu werden.',
     fr: 'Appuyez sur le bouton pour être ressuscité chez le prestidigitateur le plus proche.',
     ko: '버튼을 눌러 가장 가까운 conjurer에게 부활 시키십시오.',
@@ -30,7 +32,9 @@ export default {
     ro: 'Apăsați butonul pentru a fi înviat la cea mai apropiată conjurer.',
     zh: '按下按钮可以找最近的魔术师处复活',
     hu: 'Nyomd meg a gombot hogy felgyógyítsanak a legközelebbi Conjurernél',
-    pl: 'Wciśnij przycisk aby zostać wskrzeszonym przy najbliższym Conjurer'
+    pl: 'Wciśnij przycisk aby zostać wskrzeszonym przy najbliższym Conjurer',
+    bn: 'নিকটতম কনজিউরারে পুনরুত্থিত হতে বাটনে চাপুন',
+    vi: 'Nhấn nút để hồi sinh tại điểm gần nhất'
   },
 
   // 'Resurrect' is used in many translations/languages.
@@ -47,6 +51,8 @@ export default {
     ro: 'Înviați',
     zh: '复活',
     hu: 'Feltámadás',
-    pl: 'Respawn'
+    pl: 'Respawn',
+    bn: 'পুনর্জীবন',
+    vi: 'Hồi sinh'
   }
 }

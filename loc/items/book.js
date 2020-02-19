@@ -11,7 +11,7 @@ export default [{
   name: {$$: 'Slash'},
 
   description: {
-    en: 'Slash your enemy, striking with extra force. Heals you for 10% of the damage done.'
+    en: 'Slash your enemy, striking with extra force. Heals you for 5% of the damage done.'
   }
 },
 {
@@ -88,7 +88,7 @@ export default [{
   name: {$$: 'Decay'},
 
   description: {
-    en: 'Curse your enemy with a spell of decay, dealing damage over time.'
+    en: 'Curse your enemy with a spell of decay, dealing initial damage and additional damage over time.'
   }
 },
 {
@@ -130,7 +130,7 @@ export default [{
   name: {$$: 'Centrifugal Laceration'},
 
   description: {
-    en: 'Your Crescent Swipe lacerates enemies, causing them to bleed for additional Damage.'
+    en: 'Your Crescent Swipe lacerates enemies, causing them to bleed for additional Damage. Stacks up to 3 times.'
   }
 },
 {
@@ -235,7 +235,7 @@ export default [{
   name: {$$: 'Charge'},
 
   description: {
-    en: 'Charge towards your target while also stunning it. Stun duration increases with charge distance.'
+    en: 'Charge towards any target while also stunning it (if hostile). Stun duration increases with charge distance.'
   }
 },
 {
@@ -278,6 +278,41 @@ export default [{
 
   description: {
     en: 'Allows you to ride ground mounts.'
+  }
+},
+{
+  name: {$$: 'Conjurer\'s Recall'},
+
+  description: {
+    en: 'Teleport to the nearest Conjurer.'
+  }
+},
+{
+  name: {$$: 'Tempering'},
+
+  description: {
+    en: 'You slow down for 2 seconds. Then, if you are incapacitated: all control impairing effects are removed, your Charge cooldown is reset and you gain 20 Movement Speed for 3 seconds.'
+  }
+},
+{
+  name: {$$: 'Soul Harvest'},
+
+  description: {
+    en: 'Reap the souls of nearby enemies affected by Decay, dealing damage and granting you mana for each harvested soul.'
+  }
+},
+{
+  name: {$$: 'Plaguespreader'},
+
+  description: {
+    en: 'Decay deals damage and jumps to a nearby enemy if the current target is already affected by Decay. Additionally, casting Decay grants you Haste for a short duration.'
+  }
+},
+{
+  name: {$$: 'Soul'}, // this is not a usable spell but a side-effect of soul-harvest
+
+  description: {
+    en: 'The harvested soul.'
   }
 }
 ]
